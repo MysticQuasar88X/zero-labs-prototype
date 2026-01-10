@@ -1,19 +1,22 @@
 def main():
     print("=== Zero Labs R&D Console ===")
-    print("Structured thinking. Experimental ideas. Logged inputs.")
+    print("Research and Development Prototype")
     print()
 
-    topic = input("Enter a research topic or idea: ").strip()
+    question = input("Ask a research question: ").strip()
 
-    if not topic:
-        print("No input provided. Session terminated.")
+    if not question:
+        print("No question entered.")
         return
 
     print()
-    print("Research Log Entry")
-    print("------------------")
-    print(f"Topic: {topic}")
-    print("Status: Logged for future development")
+    print("Research Response")
+    print("-----------------")
+    print(
+        "This question has been received by Zero Labs.\n"
+        "It is a valid research inquiry.\n"
+        "Further investigation and development may be required."
+    )
     print()
     print("Zero Labs session complete.")
 
